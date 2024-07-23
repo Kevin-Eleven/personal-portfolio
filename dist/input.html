@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>ElevenAhmad</title>
+    <title>Eleven</title>
+    <link rel="icon" href="profile.jpg" type="image/x-icon" />
+    <style>
+      body,
+      nav {
+        background-color: rgb(178, 165, 120);
+      }
+      .Call {
+        background-color: rgb(23, 23, 31);
+      }
+    </style>
   </head>
-  <body class="bg-stone-300">
+  <body class="">
     <nav
-      class="h-10 bg-stone-300 flex justify-between font-medium items-center border-b-2 border-stone-400"
+      class="h-10 z-40 flex justify-between font-medium items-center border-b-2 fixed top-0 right-0 left-0 border-black"
     >
       <div class="flex h-full">
         <div class="ham flex flex-col justify-center h-full bg-black px-2">
@@ -34,6 +44,11 @@
         >
           PORTFOLIO
         </li>
+        <li
+          class="font-semibold h-full flex items-center text-black text-[15px] hover:bg-black px-1 hover:text-stone-300"
+        >
+          PROJECTS
+        </li>
       </ul>
       <div
         class="font-semibold flex hover:bg-black hover:text-stone-300 text-[18px] h-full px-2 items-center"
@@ -41,5 +56,72 @@
         CONTACT ME
       </div>
     </nav>
+    <div class="main-content z-20 flex my-4 relative top-14">
+      <div class="leftside flex flex-col items-start">
+        <div class="name">
+          <div class="text-[50px] mx-8 font-bold italic">HARIS</div>
+          <div
+            class="text-[40px] mx-8 font-medium italic uppercase text-nowrap"
+          >
+            CYBERSECURITY PROFESSIONAL
+          </div>
+        </div>
+
+        <div class="page mx-9 my-16">
+          <ul>
+            <li
+              class="font-light h-full flex items-center text-black text-[35px] underline"
+            >
+              ABOUT ME
+            </li>
+            <li
+              class="font-light h-full flex items-center text-black text-[35px] underline"
+            >
+              SKILLS
+            </li>
+            <li
+              class="font-light h-full flex items-center text-black text-[35px] underline"
+            >
+              PORTFOLIO
+            </li>
+            <li
+              class="font-light h-full flex items-center text-black text-[35px] underline"
+            >
+              PROJECTS
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="info flex flex-col">
+        <div class="profile relative">
+          <img class="w-[90%]" src="profile.jpg" alt="" />
+          <div class="SC cursor-pointer">
+            <div
+              class="absolute top-52 left-5 h-20 w-20 rounded-full Call"
+            ></div>
+            <div
+              class="absolute top-56 left-7 text-white w-16 text-center text-wrap"
+            >
+              Schedule a Call
+            </div>
+          </div>
+        </div>
+        <p class="w-[90%] my-6 font-mono">
+          Hello, I'm Harry, a dedicated tech enthusiast with a fervor for
+          innovation and problem-solving. With a background in Electronics and a
+          knack for diving deep into software intricacies, I can work with both
+          physical and digital systems. From designing penetration softwares to
+          crafting electronic bloatware, my journey is fueled by a relentless
+          curiosity and a commitment to mastering emerging technologies.
+        </p>
+        <p></p>
+      </div>
+    </div>
+    <div class="w-full flex justify-end mt-10 h-10 bg-black">
+      <img class="h-full mx-4 rounded-md" src="google.jpg" alt="" />
+      <img class="h-full mx-4 rounded-md" src="microsoft.png" alt="" />
+      <img class="h-full mx-4 rounded-md" src="meta.png" alt="" />
+      <img class="h-full mx-4 rounded-md" src="nvidia.jpg" alt="" />
+    </div>
   </body>
 </html>
